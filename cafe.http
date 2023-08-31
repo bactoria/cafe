@@ -1,0 +1,7 @@
+### 카페 개설
+POST http://localhost:8080/cafes
+Content-Type: application/json
+
+{
+  "name": "카페 이름"
+}

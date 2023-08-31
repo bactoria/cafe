@@ -30,6 +30,7 @@ dependencies {
 	implementation("io.asyncer:r2dbc-mysql:1.0.2")
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
 	testImplementation("io.projectreactor:reactor-test")
+	testImplementation("io.rest-assured:rest-assured:5.3.0")
 }
 
 tasks.getByName<org.springframework.boot.gradle.tasks.bundling.BootJar>("bootJar") {
